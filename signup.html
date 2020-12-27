@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .showcase{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("1.jpg") no-repeat center center/cover;
+}
+
+.showcase-top{
+    position: relative;
+    z-index: 2;
+    height: 90px;
+}
+
+.showcase-top img{
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(40% , -50%);
+}
+.footer{
+    max-width: 100%;
+    margin: 1rem auto;
+    overflow: auto;
+    background-color: black;
+    width: 100%;
+}
+
+.footer ,
+.footer a{
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 50px;
+
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer ul{
+    list-style-type: : none;
+}
+
+.footer li{
+    line-height: 2.4;
+}
+    </style>
+</head>
+
+<body>
+
+	<header class="showcase">
+        <div class="showcase-top">
+            <img src="logo.png" alt="Netflix Logo">
+            
+        </div>
+
+        <div class="container">
+            <h5>SignIn</h5>
+            <input type="text" placeholder="Enter Email">
+            <input type="password" placeholder="password">
+            <input type="submit" value="sign in">
+            
+            <label><input type="checkbox" > Remember Me  <a  href="#">Need Help?</a></label>
+        
+
+                <div class="login">
+                    <p><i class="fa fa-facebook"></i> Login with Facebook</p>
+                    
+                    <p>New to Netflix?<a href="index.html" style="margin-left:0px">  <b>Sign Up Now.</b></a>
+                       
+                    <p>
+                       
+                        This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                        <a onclick="showText('more text')" style="color: blue; margin-left: 0px" href="">Learn More</a> 
+                    </p>
+                    <p id="learn-more"></p>
+
+                </div>
+              </div>
+          </div>
+
+        
+       
+    </header>
+
+    <footer class="footer">
+        <p>Questions? Contact Us</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#">Terms of use</a></li>
+               
+            </ul>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+               
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        function showText(id)
+    {
+        document.getElementById('learn-more').style.display = "block";
+    }
+    </script>
+
+</body>
+</html>

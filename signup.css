@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+}
+    .container{
+    padding: 1px 1px 1px 1px;
+    margin: 0;
+    height: 630px;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    background-color: black;
+      margin-left: 400px;
+
+    
+   
+}
+.sign{
+    background-color: #000;
+    width: 360px;
+    height: 500px
+}
+h5{
+   color: #fff;
+   font-family: sans-serif;
+   margin-left: 20px; 
+   text-align: center;
+   
+   
+}
+input{
+    width: 320px;
+    height: 45px;
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+    margin-left: 18px;
+    font-size: 20px;
+    text-align: center;
+   margin-top: -30px;
+    margin-left: 50px;
+
+
+}
+input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    color:#fff;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+
+}
+label{
+    color: #f6f6f6;
+
+}
+a{
+    color: #f6f6f6;
+    text-decoration: none;
+    margin-left: 120px;
+
+}
+
+.login{
+    margin-left:10px;
+    color: white;
+}
+
+.fa-facebook{
+    background :blue;
+    width:15px;
+    text-align: center;
+}
+
+
+.footer{
+    max-width: 80%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer ,
+.footer a{
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li{
+    line-height: 2.4;
+}
+
+
+
+
